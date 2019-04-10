@@ -1,0 +1,20 @@
+{
+  "name": "getactive",
+  "version": "1.0.0",
+  "description": "An easier way to stay woke.",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "iron_worker": "^0.1.8",
+    "newsapi": "^2.4.0",
+    "twilio": "^3.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Maricris Bonzo",
+  "license": "ISC"
+}
